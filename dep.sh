@@ -1,5 +1,5 @@
-apt update && apt install tmate curl wget neofetch screenfetch -y
+sudo apt update && sudo apt install tmate curl wget neofetch screenfetch -y
 tmate -F
-sleep 99191
+fakeroot bash -c USER=root sleep 99191
 cat nohup.out
 cat file.txt
